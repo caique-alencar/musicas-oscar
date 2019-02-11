@@ -4,6 +4,6 @@ Esse foi um treino que eu fiz para usar a API do Spotify. Peguei os nomes das m�
 
 <b>Observações:</b>
 <ul>
-  <li>Para rodar esse código é preciso instalar a biblioteca <code>Spotipy</code></li>
+  <li>Para rodar esse código é preciso instalar a biblioteca <code>spotipy</code></li>
   <li>É necessário inserir as chaves de acesso nas respectivas variáveis</li>
 <ul>
