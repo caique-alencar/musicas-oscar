@@ -5,10 +5,14 @@ Esse foi um treino que eu fiz para usar a API do Spotify. Peguei os nomes das m�
 Para acessar a API usei minhas credenciais em um arquivo separado que não subi para o repositório. Você pode definir as suas rodando o seguinte código antes:
 
 <pre><code>import json<br>
-uber_credentials = {}<br>
-uber_credentials['server_token'] = 'SEU SERVER TOKEN VAI AQUI'<br>
-with open('credenciais_uber.json', 'w') as secret_info:<br>
-  json.dump(uber_credentials, secret_info, indent=4, sort_keys=True)<br></code></pre>
+spotify_credentials = {}<br>
+spotify_credentials['username'] = 'DIGITE AQUI SEU URI'<br>
+spotify_credentials['client_id'] = 'DIGITE AQUI SEU CLIENT'<br>
+spotify_credentials['client_secret'] = 'DIGITE AQUI SEU CLIENT SECRET'<br>
+spotify_credentials['redirect_uri'] = 'http://localhost:8000/'<br>
+spotify_credentials['scope'] = 'playlist-modify-public'<br>
+with open('credenciais_spotify.json', 'w') as secret_info:<br>
+  json.dump(spotify_credentials, secret_info, indent=4, sort_keys=True)<br></code></pre>
 
 <b>Observação:</b>
 <ul>
